@@ -253,12 +253,17 @@ div.articulo-principal {
   justify-content: center;
   align-items: center;
 }
+.perfil-usuario {
+  display: flex;
+  justify-content: space-between;
+}
 
 .perfilusuario,
 .intereses {
   padding-bottom: 4px;
   display: flex;
   align-items: center;
+  padding-left: 10px;
 }
 
 input {
@@ -363,6 +368,11 @@ input:focus {
   background-color: #0022aa;
 }
 
+.botones {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*......... media queries ...........*/
 
 @media (min-width: 361px) {
@@ -435,9 +445,6 @@ input:focus {
     height: 25px;
     padding: 20px;
     padding-left: 55px;
-  }
-  .container2 {
-    justify-content: space-between;
   }
 }
 
